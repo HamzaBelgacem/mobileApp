@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_convertor.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_convertor.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_product.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\singleproduct.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\singleproduct.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_calcul.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_calcul.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_main_menu.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_form.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-mergeDebugResources-29:\\layout\\activity_quiz.xml",
+        "source": "C:\\Users\\hamza\\.gradle\\daemon\\7.4\\com.android.myapp-main-32:\\layout\\activity_quiz.xml"
+    },
+    {
+        "merged": "com.android.myapp-mergeDebugResources-29:/layout/activity_form.xml",
+        "source": "com.android.myapp-main-32:/layout/activity_form.xml"
+    }
+]

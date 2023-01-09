@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:foregroundTint="#774343"
+        tools:context=".form">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/black_han_sans"
+            android:inputType="none"
+            android:text="List view "
+            android:textAlignment="center"
+            android:textColor="#A1C5CCCD"
+            android:textColorHighlight="#AE3F3F3F"
+            android:textColorLink="#FAFAFA"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#B0F7FBFB"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:backgroundTint="#018796"
+                android:text="Delete"
+                android:textColor="#D0C6D4D3" />
+
+            <Button
+
+                android:id="@+id/b1"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:backgroundTint="#018796"
+                android:text="Add"
+                android:textColor="#D0C6D4D3" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:backgroundTint="#018796"
+                android:text="Update"
+                android:textColor="#D0C6D4D3" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/teal_700"
+            android:drawSelectorOnTop="false"></ListView>
+
+
+</RelativeLayout>

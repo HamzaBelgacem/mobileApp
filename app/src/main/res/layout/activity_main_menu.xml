@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:foregroundTint="#774343"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="372dp"
+        android:backgroundTint="#018796"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:textColor="#D0C6D4D3" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:backgroundTint="#018796"
+        android:text="Convetor"
+        android:textAlignment="center"
+        android:textColor="#D0C6D4D3" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#018796"
+        android:text="Listview"
+        android:textAlignment="center"
+        android:textColor="#D0C6D4D3" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="273dp"
+        android:backgroundTint="#018796"
+        android:text="Quiz"
+        android:textAlignment="center"
+        android:textColor="#D0C6D4D3" />
+
+</RelativeLayout>
+

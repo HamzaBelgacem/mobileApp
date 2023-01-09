@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:foregroundTint="#774343"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="157dp"
+        android:editable="false"
+        android:fontFamily="@font/black_han_sans"
+        android:inputType="none"
+        android:text='Calculator'
+        android:textAlignment="center"
+        android:textColor="#A1C5CCCD"
+        android:textColorHighlight="#AE3F3F3F"
+        android:textColorLink="#FAFAFA"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#B0F7FBFB"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="301dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="Second Number"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#B0F7FBFB"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="372dp"
+        android:backgroundTint="#018796"
+        android:text="calculate"
+        android:textAlignment="center"
+        android:textColor="#D0C6D4D3" />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="433dp"
+        android:ems="10"
+        android:hint=""
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#B0F7FBFB"
+        android:textStyle="bold" />
+
+</RelativeLayout >
